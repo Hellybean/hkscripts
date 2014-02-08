@@ -40,7 +40,7 @@ echo ""
 echo "${bldcya}Compiling Hammerhead!!!${txtrst}"
 sleep 5
 bash cmbuild.sh hammerhead
-sshpass -e scp -v -P 2222 out/target/product/hammerhead/cm-11*.ziphelldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/cm11/
+sshpass -e scp -v -P 2222 out/target/product/hammerhead/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/cm11/
 
 echo ""
 echo "${bldcya}Compiling Hercules!!!${txtrst}"
