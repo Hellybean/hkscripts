@@ -33,44 +33,44 @@ sleep 5
 echo ""
 echo "${bldcya}Compiling Mako!!!${txtrst}"
 sleep 5
-bash cmbuild.sh mako
+bash cm11build.sh mako
 sshpass -e scp -v -P 2222 out/target/product/mako/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/mako/cm11/
 
 echo ""
 echo "${bldcya}Compiling Hammerhead!!!${txtrst}"
 sleep 5
-bash cmbuild.sh hammerhead
+bash cm11build.sh hammerhead
 sshpass -e scp -v -P 2222 out/target/product/hammerhead/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/cm11/
 
 echo ""
 echo "${bldcya}Compiling Hercules!!!${txtrst}"
 sleep 5
-bash cmbuild.sh hercules
+bash cm11build.sh hercules
 sshpass -e scp -v -P 2222 out/target/product/hercules/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/cm11/
 
 echo ""
 echo "${bldcya}Compiling Skyrocket!!!${txtrst}"
 sleep 5
-bash cmbuild.sh skyrocket
+bash cm11build.sh skyrocket
 sshpass -e scp -v -P 2222 out/target/product/skyrocket/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/cm11/
 
 echo ""
 echo "${bldcya}Compiling t0lte!!!${txtrst}"
 sleep 5
-bash cmbuild.sh t0lte
+bash cm11build.sh t0lte
 sshpass -e scp -v -P 2222 out/target/product/t0lte/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/t0lte/cm11/
 
 echo ""
 echo "${bldcya}Compiling n7100!!!${txtrst}"
 sleep 5
-bash cmbuild.sh n7100
+bash cm11build.sh n7100
 sshpass -e scp -v -P 2222 out/target/product/n7100/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/n7100/cm11/
 
 echo ""
-echo "${bldcya}Compiling jfltetmo!!!${txtrst}"
+echo "${bldcya}Compiling jflte!!!${txtrst}"
 sleep 5
-bash cmbuild.sh jfltetmo
-sshpass -e scp -v -P 2222 out/target/product/jfltetmo/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/cm11/
+bash cm11build.sh jflte
+sshpass -e scp -v -P 2222 out/target/product/jflte/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jflte/cm11/
 
 # Show Elapsed Time
 res2=$(date +%s.%N)

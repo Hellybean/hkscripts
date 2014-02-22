@@ -27,31 +27,31 @@ sleep 5
 echo ""
 echo "${bldred}Compiling Mako!!!${txtrst}"
 sleep 5
-bash cmbuild.sh mako
+bash cm11build.sh mako
 
-# echo ""
-# echo "${bldred}Compiling Hercules!!!${txtrst}"
-# sleep 5
-# bash cmbuild.sh hercules
+echo ""
+echo "${bldred}Compiling Hercules!!!${txtrst}"
+sleep 5
+bash cm11build.sh hercules
 
-# echo ""
-# echo "${bldred}Compiling Skyrocket!!!${txtrst}"
-# sleep 5
-# bash cmbuild.sh skyrocket
+echo ""
+ echo "${bldred}Compiling Skyrocket!!!${txtrst}"
+ sleep 5
+ bash cm11build.sh skyrocket
 
 echo ""
 echo "${bldred}Compiling t0lte!!!${txtrst}"
 sleep 5
-bash cmbuild.sh t0lte
+bash cm11build.sh t0lte
 
 echo ""
 echo "${bldred}Compiling n7100!!!${txtrst}"
 sleep 5
-bash cmbuild.sh n7100
+bash cm11build.sh n7100
 
 echo ""
-echo "${bldred}Compiling jfltetmo!!!${txtrst}"
+echo "${bldred}Compiling jflte!!!${txtrst}"
 sleep 5
-bash cmbuild.sh jfltetmo
+bash cm11build.sh jflte
            
 

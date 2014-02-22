@@ -29,15 +29,15 @@ echo "${bldblu}Compiling Mako!!!${txtrst}"
 sleep 5
 bash blbuild.sh mako
 
-# echo ""
-# echo "${bldblu}Compiling Hercules!!!${txtrst}"
-# sleep 5
-# bash blbuild.sh hercules
+echo ""
+echo "${bldblu}Compiling Hercules!!!${txtrst}"
+sleep 5
+bash blbuild.sh hercules
 
-# echo ""
-# echo "${bldblu}Compiling Skyrocket!!!${txtrst}"
-# sleep 5
-# bash blbuild.sh skyrocket
+echo ""
+echo "${bldblu}Compiling Skyrocket!!!${txtrst}"
+sleep 5
+bash blbuild.sh skyrocket
 
 echo ""
 echo "${bldblu}Compiling t0lte!!!${txtrst}"
@@ -50,8 +50,8 @@ sleep 5
 bash blbuild.sh n7100
 
 echo ""
-echo "${bldblu}Compiling jfltetmo!!!${txtrst}"
+echo "${bldblu}Compiling jflte!!!${txtrst}"
 sleep 5
-bash blbuild.sh jfltetmo
+bash blbuild.sh jflte
            
 

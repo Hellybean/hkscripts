@@ -66,10 +66,10 @@ bash hkbuild.sh n7100
 sshpass -e scp -v -P 2222 out/target/product/n7100/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/n7100/hellkat/
 
 echo ""
-echo "${bldred}Compiling jfltetmo!!!${txtrst}"
+echo "${bldred}Compiling jflte!!!${txtrst}"
 sleep 5
-bash hkbuild.sh jfltetmo
-sshpass -e scp -v -P 2222 out/target/product/jfltetmo/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/hellkat/
+bash hkbuild.sh jflte
+sshpass -e scp -v -P 2222 out/target/product/jflte/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jflte/hellkat/
 
 # Show Elapsed Time
 res2=$(date +%s.%N)

@@ -67,10 +67,10 @@ bash blbuild.sh n7100
 sshpass -e scp -v -P 2222 out/target/product/n7100/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/n7100/bluelightning/
 
 echo ""
-echo "${bldblu}Compiling jfltetmo!!!${txtrst}"
+echo "${bldblu}Compiling jflte!!!${txtrst}"
 sleep 5
-bash blbuild.sh jfltetmo
-sshpass -e scp -v -P 2222 out/target/product/jfltetmo/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/bluelightning/
+bash blbuild.sh jflte
+sshpass -e scp -v -P 2222 out/target/product/jflte/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jflte/bluelightning/
 
 # Show Elapsed Time
 res2=$(date +%s.%N)
