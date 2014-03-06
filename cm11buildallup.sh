@@ -43,6 +43,18 @@ bash cm11build.sh hammerhead
 sshpass -e scp -v -P 2222 out/target/product/hammerhead/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/cm11/
 
 echo ""
+echo "${bldcya}Compiling n7100!!!${txtrst}"
+sleep 5
+bash cm11build.sh n7100
+sshpass -e scp -v -P 2222 out/target/product/n7100/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/n7100/cm11/
+
+echo ""
+echo "${bldcya}Compiling t0lte!!!${txtrst}"
+sleep 5
+bash cm11build.sh t0lte
+sshpass -e scp -v -P 2222 out/target/product/t0lte/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/t0lte/cm11/
+
+echo ""
 echo "${bldcya}Compiling Hercules!!!${txtrst}"
 sleep 5
 bash cm11build.sh hercules
@@ -53,18 +65,6 @@ echo "${bldcya}Compiling Skyrocket!!!${txtrst}"
 sleep 5
 bash cm11build.sh skyrocket
 sshpass -e scp -v -P 2222 out/target/product/skyrocket/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/cm11/
-
-echo ""
-echo "${bldcya}Compiling t0lte!!!${txtrst}"
-sleep 5
-bash cm11build.sh t0lte
-sshpass -e scp -v -P 2222 out/target/product/t0lte/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/t0lte/cm11/
-
-echo ""
-echo "${bldcya}Compiling n7100!!!${txtrst}"
-sleep 5
-bash cm11build.sh n7100
-sshpass -e scp -v -P 2222 out/target/product/n7100/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/n7100/cm11/
 
 echo ""
 echo "${bldcya}Compiling jflte!!!${txtrst}"
